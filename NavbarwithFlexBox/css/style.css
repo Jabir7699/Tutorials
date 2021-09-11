@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url('/NavbarwithFlexBox/images/first-bg.png');
     background-size: cover;
@@ -21,11 +22,15 @@ header{
     align-items: center;
     padding: 30px 70px;
 }
+
+/* logo styling */
 .logo {
     cursor: pointer;
     height: 20%;
     width: 100px;
 }
+
+/* ---- navbar styling ---- */
 .nav-area {
     list-style: none;
 }
@@ -38,6 +43,8 @@ header{
     transition: 0.3s;
     color: #fff;
 }
+
+/* ---- hover styling ---- */
 .nav-area li a:hover{
     border: 1px solid rgb(241, 226, 10);
     padding: 10px 10px;
